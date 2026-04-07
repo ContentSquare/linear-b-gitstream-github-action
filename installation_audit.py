@@ -20,6 +20,9 @@ from collections import Counter
 
 PAT       = None    # passed via --token CLI argument
 
+# Pulling data from March 30 through April 4 to get a broader view. This helps
+# spot any anomalies during the incident timeframe and better understand what
+# normal gitStream activity looks like in the org.
 TIME_FROM = datetime(2026, 3, 30, 0, 0, 0, tzinfo=timezone.utc)
 TIME_TO   = datetime(2026, 4, 4, 23, 59, 59, tzinfo=timezone.utc)
 
