@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@linearb/gitstream-core": {
-      "signature": "667a67c1929307d4d50d10a94bb790cc",
+      "signature": "09935382797178a05a992d7d3f40bd41",
       "file": true,
       "replaced": "2.1.280"
     }
